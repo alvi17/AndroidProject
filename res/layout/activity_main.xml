@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/relativeLayout"
+   >
+
+    <TextView
+        android:id="@+id/highScoretextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Highest Score: "
+  />
+
+    <TextView
+        android:id="@+id/leveltextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/highScoretextView"
+        android:layout_alignBottom="@+id/highScoretextView"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Level: " 
+/>
+
+    <TextView
+        android:id="@+id/scoretextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/highScoretextView"
+        android:layout_below="@+id/highScoretextView"
+        android:layout_marginTop="10dp"
+        android:text="Score :"
+         />
+    <LinearLayout
+        android:id="@+id/lifeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+    </LinearLayout>
+    
+    
+
+</RelativeLayout>
